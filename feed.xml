@@ -5,7 +5,7 @@
   <link href="/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://westerndevs.com" rel="alternate" type="application/atom+xml"/>
   
-  <updated>2020-12-01T06:35:03.753Z</updated>
+  <updated>2020-12-01T06:43:31.474Z</updated>
   <id>https://westerndevs.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://westerndevs.com/_/Advent-Of-Code-Day01/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/_/Advent-Of-Code-Day01/</id>
     <published>2020-12-01T05:00:00.000Z</published>
-    <updated>2020-12-01T06:35:03.753Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
@@ -31,7 +31,7 @@
 	  <uri>https://westerndevs.com</uri>
 	</author>
     
-    <content type="html"><![CDATA[<p>There was a slight hiccup with the Advent Of Code site going down right at launch today.  Within about 5-6 minutes they had solved the problem, and the site author gave a couple comments about it on reddit:</p><a id="more"></a><p><img src="https://imgur.com/ei64QeP.png" alt="Postmortem"><img src="https://imgur.com/2fZOaJt.png" alt="Postmortem comment"></p><p>My code can be found on GitHub: https://github.com/dylan-smith/AdventOfCode2020/blob/master/src/Days/Day01.cs</p><p>Here's quick walkthrough of my final solution:</p><iframe width="560" height="315" src="https://www.youtube.com/embed/CvMvjvUGz8Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
+    <content type="html"><![CDATA[<p>There was a slight hiccup with the Advent Of Code site going down right at launch today.  Within about 5-6 minutes they had solved the problem, and the site author gave a couple comments about it on reddit:</p><a id="more"></a><p><img src="https://imgur.com/ei64QeP.png" alt="Postmortem"><img src="https://imgur.com/2fZOaJt.png" alt="Postmortem comment"></p><p>My code can be found <a href="https://github.com/dylan-smith/AdventOfCode2020/blob/master/src/Days/Day01.cs" target="_blank" rel="noopener">here on GitHub</a></p><p>Here's quick walkthrough of my final solution:</p><iframe width="560" height="315" src="https://www.youtube.com/embed/CvMvjvUGz8Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
     
     <summary type="html">
     
@@ -47,7 +47,7 @@
     <link href="https://westerndevs.com/_/Advent-Of-Code-Intro/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/_/Advent-Of-Code-Intro/</id>
     <published>2020-11-24T19:00:00.000Z</published>
-    <updated>2020-12-01T06:35:03.753Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
@@ -73,7 +73,7 @@
     <link href="https://westerndevs.com/_/serverless-sql-azure-terraform/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/_/serverless-sql-azure-terraform/</id>
     <published>2020-11-18T19:00:00.000Z</published>
-    <updated>2020-12-01T06:35:03.753Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
@@ -99,7 +99,7 @@
     <link href="https://westerndevs.com/devops/from-travis-ci-to-github-actions/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/devops/from-travis-ci-to-github-actions/</id>
     <published>2020-11-10T23:36:00.000Z</published>
-    <updated>2020-12-01T06:35:03.753Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
@@ -137,7 +137,7 @@
     <link href="https://westerndevs.com/_/cross-database-procs/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/_/cross-database-procs/</id>
     <published>2020-11-09T19:00:00.000Z</published>
-    <updated>2020-12-01T06:35:03.753Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
@@ -163,7 +163,7 @@
     <link href="https://westerndevs.com/devlog/out-the-door/out-the-door-post-jam-update/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/devlog/out-the-door/out-the-door-post-jam-update/</id>
     <published>2020-11-09T14:00:00.000Z</published>
-    <updated>2020-12-01T06:35:03.753Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
@@ -205,7 +205,7 @@
     <link href="https://westerndevs.com/_/processor-limits/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/_/processor-limits/</id>
     <published>2020-11-05T20:00:00.000Z</published>
-    <updated>2020-12-01T06:35:03.753Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
@@ -231,7 +231,7 @@
     <link href="https://westerndevs.com/_/elasticquery/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/_/elasticquery/</id>
     <published>2020-11-05T19:00:00.000Z</published>
-    <updated>2020-12-01T06:35:03.753Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
@@ -257,7 +257,7 @@
     <link href="https://westerndevs.com/devlog/a-solo-gamejam-experience-ld47/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/devlog/a-solo-gamejam-experience-ld47/</id>
     <published>2020-10-23T13:00:00.000Z</published>
-    <updated>2020-12-01T06:35:03.753Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
@@ -297,7 +297,7 @@
     <link href="https://westerndevs.com/_/typescript-definition/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/_/typescript-definition/</id>
     <published>2020-09-28T18:00:00.000Z</published>
-    <updated>2020-12-01T06:35:03.753Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
@@ -323,7 +323,7 @@
     <link href="https://westerndevs.com/devlog/game-portfolio-review-2020/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/devlog/game-portfolio-review-2020/</id>
     <published>2020-09-18T13:00:00.000Z</published>
-    <updated>2020-12-01T06:35:03.749Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
@@ -363,7 +363,7 @@
     <link href="https://westerndevs.com/devlog/little-shop-of-wall-street-01-release-notes/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/devlog/little-shop-of-wall-street-01-release-notes/</id>
     <published>2020-07-02T15:13:00.000Z</published>
-    <updated>2020-12-01T06:35:03.749Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
@@ -401,7 +401,7 @@
     <link href="https://westerndevs.com/Azure/Azure-Functions/scaling-azure-functions-from-consumption-plan-to-premium-hosting-plan/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/Azure/Azure-Functions/scaling-azure-functions-from-consumption-plan-to-premium-hosting-plan/</id>
     <published>2020-05-23T16:30:00.000Z</published>
-    <updated>2020-12-01T06:35:03.749Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
@@ -439,7 +439,7 @@
     <link href="https://westerndevs.com/kubernetes/kubernetes-my-journey/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/kubernetes/kubernetes-my-journey/</id>
     <published>2020-05-22T17:00:00.000Z</published>
-    <updated>2020-12-01T06:35:03.749Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
@@ -470,7 +470,7 @@
     <link href="https://westerndevs.com/kubernetes/kubernetes-my-journey-part-1/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/kubernetes/kubernetes-my-journey-part-1/</id>
     <published>2020-05-22T16:00:00.000Z</published>
-    <updated>2020-12-01T06:35:03.749Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
@@ -502,7 +502,7 @@
     <link href="https://westerndevs.com/kubernetes/kubernetes-my-journey-part-2/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/kubernetes/kubernetes-my-journey-part-2/</id>
     <published>2020-05-22T15:00:00.000Z</published>
-    <updated>2020-12-01T06:35:03.749Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
@@ -534,7 +534,7 @@
     <link href="https://westerndevs.com/kubernetes/kubernetes-my-journey-part-3/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/kubernetes/kubernetes-my-journey-part-3/</id>
     <published>2020-05-22T14:00:00.000Z</published>
-    <updated>2020-12-01T06:35:03.749Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
@@ -566,7 +566,7 @@
     <link href="https://westerndevs.com/kubernetes/kubernetes-my-journey-part-4/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/kubernetes/kubernetes-my-journey-part-4/</id>
     <published>2020-05-22T13:00:00.000Z</published>
-    <updated>2020-12-01T06:35:03.749Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
@@ -598,7 +598,7 @@
     <link href="https://westerndevs.com/kubernetes/kubernetes-my-journey-part-5a/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/kubernetes/kubernetes-my-journey-part-5a/</id>
     <published>2020-05-22T12:00:00.000Z</published>
-    <updated>2020-12-01T06:35:03.749Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
@@ -630,7 +630,7 @@
     <link href="https://westerndevs.com/kubernetes/kubernetes-my-journey-part-5b/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/kubernetes/kubernetes-my-journey-part-5b/</id>
     <published>2020-05-22T11:00:00.000Z</published>
-    <updated>2020-12-01T06:35:03.749Z</updated>
+    <updated>2020-12-01T06:43:31.474Z</updated>
 	<author>
 	
 	  
