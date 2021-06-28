@@ -5,7 +5,7 @@
   <link href="/feeds/david_wesst" rel="self" type="application/atom+xml"/>
   <link href="https://westerndevs.com" rel="alternate" type="application/atom+xml"/>
   
-  <updated>2020-12-04T01:32:16.184Z</updated>
+  <updated>2021-06-28T14:26:14.795Z</updated>
   <id>https://westerndevs.com/</id>
   
   <author>
@@ -17,11 +17,161 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title type="html">I Can Teach Your Dog Quantum Physics</title>
+    <link href="https://westerndevs.com/finding-inspiration/i-can-teach-your-dog-quantum-physics/" rel="alternate" type="text/html"/>
+    <id>https://westerndevs.com/finding-inspiration/i-can-teach-your-dog-quantum-physics/</id>
+    <published>2021-06-28T16:00:00.000Z</published>
+    <updated>2021-06-28T14:26:14.795Z</updated>
+	<author>
+	
+	  
+	  <name>David Wesst</name>
+	  <email>questions@davidwesst.com</email>
+	
+	  <uri>https://westerndevs.com</uri>
+	</author>
+    
+    <content type="html"><![CDATA[<p><img src="/images/2021-06-28-i-can-teach-your-dog-quantum-physics/physics_dog_resized.jpg" alt="A hand holding the book How to teach physics to your dog by Chad Orzel"></p><p>Okay fine. Maybe I can't teach your dog quantum physics, but this book taught <em>me</em> something about quantum so that's something, right?</p><p>I finished <em>How to Teach Physics to your Dog</em> by Chad Orzel as I continue to dive deeper into my quest in understanding in quantum computing. This book was recommended by Mark Russonovich at the end of his Microsoft Ignite 2019 talked called <em>Quantum computing: Computing with a probabilistic universe with Mark Russinovich</em> at Microsoft Ignite 2019. You can watch at this link at the Microsoft Ignite site: <a href="https://myignite.microsoft.com/archives/IG19-BRK4011" target="_blank" rel="noopener">LINK</a>.</p><p>In short, it's pretty good.</p><p>It's solid way to understand some of the core of quantum mechanics that make quantum computing possible. It goes deeper just defining concepts like superposition, entanglement, and QED, but it also gets into a bit of the math and the history side of the concepts.</p><h1>The Highlights</h1><p>Now, I'm no book scientist and as such, I'm not going to worry about trying to put together a fancy book review that rates my experience. Instead, I thought it would be a good idea to highlight the parts of the book that made it a good read, and you can figure out the rest on your own.</p><h2>Dog Conversations</h2><p>Orzel jumps between explaining a concept traditionally to having a conversation with his dog (hense the title).</p><p>The style is kinda silly, which is something of a fresh take for explaining science, but it works surprisingly well.</p><p>Outside of helping to simplify some of the more complicated or mind bending points of quantum mechanics, or lightens the mood and makes it less of a &quot;physics book&quot; and more of a &quot;story about physics&quot;.</p><h2>A story that teaches you about physics</h2><p>I think the best part about the book is how it builds on each topic, chapter by chapter.</p><p>It reads like a story, where each chapter prepares you for the next until you finally hit the big wrap up on entanglement and QED, or quantum electrodynamics, along with a chapter on what to look for when people are trying to abuse quantum physics to push their own non-scientific agenda of making a quick buck.</p><h2>Mathy, but not too mathy</h2><p>Physics is math. That's just how it is, and this book does a great job of introducing us to the math, but not dwelling or depending on it. I appreciated that, especially near the end of the book where ideas like QED start to really bend your mind.</p><p>I appreciated how they didn't shy away from it and used the conversations with the dog to help bring it down to a &quot;not too mathy&quot; way. Keeps the reader in check and reminds them that this isn't just philosophy, but <em>real science</em>.</p><h1>TL;DR; / Conclusion</h1><p>This book set me up with a solid foundation on the physics that make quantum computing possible, which was the whole reason for reading it. It's &quot;learning through story and conversation&quot; approach that doesn't shy away from maths (but doesn't dwell on them) makes it an easier read than one might think.</p><p>Recommended for those interesting in understanding the <em>science</em> (not magic) of quantum physics that make quantum computing a real life thing.</p>]]></content>
+    
+    <summary type="html">
+    
+      It&#39;s true! I read a book about it and everything. Let me breakdown the highlights of this book that does a pretty good job of explaining the physics behind quantum computing.
+    
+    </summary>
+    
+      <category term="finding inspiration" scheme="https://westerndevs.com/categories/finding-inspiration/"/>
+    
+    
+      <category term="quantum computing" scheme="https://westerndevs.com/tags/quantum-computing/"/>
+    
+      <category term="quantum physics" scheme="https://westerndevs.com/tags/quantum-physics/"/>
+    
+      <category term="finding inspiration" scheme="https://westerndevs.com/tags/finding-inspiration/"/>
+    
+      <category term="book" scheme="https://westerndevs.com/tags/book/"/>
+    
+      <category term="Mark Russinovich" scheme="https://westerndevs.com/tags/Mark-Russinovich/"/>
+    
+  </entry>
+  
+  <entry>
+    <title type="html">What Value Does Making Content Bring to Me? (not a typo)</title>
+    <link href="https://westerndevs.com/inner-monologue/what-value-does-making-content-bring-to-me/" rel="alternate" type="text/html"/>
+    <id>https://westerndevs.com/inner-monologue/what-value-does-making-content-bring-to-me/</id>
+    <published>2021-06-17T16:00:00.000Z</published>
+    <updated>2021-06-28T14:26:14.795Z</updated>
+	<author>
+	
+	  
+	  <name>David Wesst</name>
+	  <email>questions@davidwesst.com</email>
+	
+	  <uri>https://westerndevs.com</uri>
+	</author>
+    
+    <content type="html"><![CDATA[<p><img src="/images/2021-06-17-what-value-does-making-content-bring-to-me/rob-schreckhise-8zdEgWg5JAA-unsplash_altered.jpg" alt="A gorilla with in a pose that denotes they're thinking"></p><p>That's not to say the content should provide value to the reader, also known as you, but it's still a very important question to answer.</p><p>With the reboot of my blog and getting back into social media, this has become the first question I ask myself before writing a post, or planning a livestream, or scripting a video, or even saving a link. It's selfish, but if the post isn't valuable to me, then why would it be valuable to you?</p><p>In my previous professional life, the content I created with exclusively for the readers and for Microsoft. I made content, they awarded me an MVP award with some great perks, an awesome community, but it lead to an unforeseen need to be validated and rewarded for my content,  which I wrote about recently <a href="https://www.davidwesst.com/blog/my-secret-addiction-to-likes/" target="_blank" rel="noopener">LINK</a>. It was a good deal and made sense at the time. But that was then, and this is now. Now when I look at creating content, first person it needs to bring value to is me.</p><h2>So why bother blogging at all?</h2><p>I didn't.</p><p>At least I didn't for a few years and just left my blog and website to be a development science experiment. Reason being, I didn't know the value the blog could bring me.</p><p>I'll leave the numerous self-driven arguments and half baked reasons I tried to give myself out of it, but ultimately it didn't make a lot of sense to keep on blogging.</p><p>Until it did again.</p><h2>Sharing my Self-Retrospectives</h2><p>Even though I stopped blogging and stopped doing my annual self retrospectives (like this one from 2014: <a href="https://www.davidwesst.com/blog/highlight-reel-for-2014/" target="_blank" rel="noopener">LINK</a> and this one from 2015 <a href="https://www.davidwesst.com/blog/highlight-reel-for-2015/" target="_blank" rel="noopener">LINK</a>) the self-reflective process never stopped. Rather, my the self-retrospectives evolved into smaller chunks of thought that I would or share with trusted friends or family to get opinions on the deep thoughts from this inner monologue I maintained.</p><p>Then a pandemic started and I was unable to share, at least not with the frequency and ease that I used to.</p><h2>The Absence of Validation</h2><p><img src="/images/2021-06-17-what-value-does-making-content-bring-to-me/drahomir-posteby-mach-__Hw50q04FI-unsplash_updated.jpg" alt="Black and white image of the word 'yes' drawn in sand"></p><p>It's the inability to share the way I was used to got me thinking differently. I started to realize that sharing was my way to get approval and a pat on the head for an idea. I didn't need to take action with my website or my social media presence, because I already had a bunch of people tell me it was a good idea. Why bother doing it when I already got it validated?</p><p>And so I tested my theory and stopped sharing my ideas on social media. Not long after that, I stopped sharing my ideas with my trusted friends virtually (unless I had something to show, which I never did) not because I didn't want to, but because I needed to learn to do this for myself.</p><p><em>For me.</em></p><p>This means I am the first validator of the idea, and ultimately gives me that first bit of validation to approve my time investment into it. Of course the catch is, if I want futher validation, I suppose I should validate my own feelings first to make sure I'm right.</p><h2>If its valuable to me, then it'll be valuable to someone else (TL;DR;)</h2><p>Time is my most important asset. For that reason, the first question I ask the question: &quot;What value does <idea> it bring to me?&quot; as I need to decide if the idea is worth investing my time on it. If I don't see the value in it, the idea might not be bad, but it's just not for me. My time is better spent on an idea, post, or science experiment that I think will bring me value first.</p><p>Because if it brings me value, then there it will probably bring value to someone else out there on the internet.</p><p>Thanks for playing.</p><p>~ DW</p><hr><h5>Photo Credit</h5><p>Photo by <a href="https://unsplash.com/@robschreckhise?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">Rob Schreckhise</a> on <a href="https://unsplash.com/s/photos/thinking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">Unsplash</a></p><p>Photo by <a href="https://unsplash.com/@postebymach?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">Drahomír Posteby-Mach</a> on <a href="https://unsplash.com/s/photos/approved?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">Unsplash</a></p>]]></content>
+    
+    <summary type="html">
+    
+      I realize it&#39;s a selfish question, but if the post isn&#39;t valuable to me then why would it be valuable to you?
+    
+    </summary>
+    
+      <category term="inner monologue" scheme="https://westerndevs.com/categories/inner-monologue/"/>
+    
+    
+      <category term="blog" scheme="https://westerndevs.com/tags/blog/"/>
+    
+      <category term="defining value" scheme="https://westerndevs.com/tags/defining-value/"/>
+    
+      <category term="content creation" scheme="https://westerndevs.com/tags/content-creation/"/>
+    
+      <category term="self-retrospective" scheme="https://westerndevs.com/tags/self-retrospective/"/>
+    
+      <category term="validation" scheme="https://westerndevs.com/tags/validation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title type="html">My Secret Addiction to Likes</title>
+    <link href="https://westerndevs.com/inner-monologue/my-secret-addiction-to-likes/" rel="alternate" type="text/html"/>
+    <id>https://westerndevs.com/inner-monologue/my-secret-addiction-to-likes/</id>
+    <published>2021-06-03T16:00:00.000Z</published>
+    <updated>2021-06-28T14:26:14.795Z</updated>
+	<author>
+	
+	  
+	  <name>David Wesst</name>
+	  <email>questions@davidwesst.com</email>
+	
+	  <uri>https://westerndevs.com</uri>
+	</author>
+    
+    <content type="html"><![CDATA[<p>I decided to take a month off of contributing to social media. More specifically Twitter and YouTube, but Facebook and Instagram as well. That single month has turned into just over three months now, and I learned a few things about myself and how I think my return to <em>some</em> social media will be a good thing.</p><h1>Where it started...</h1><p>I'm a millennial. Which means, I've been doing social media since before it was called &quot;social media&quot;. I got onto Twitter very early on, I needed a university email address to create my Facebook account, and YouTube...well, it wasn't owned by Google.</p><p>The point being is that social media has been a part of my entire adult life. I actually can't rememberof a time in my professional life that someone wasn't telling me that my social media presence or &quot;brand&quot; had the ability to propel my career forward, if I played my tweets just right.</p><p>It is probably that every job I had in tech was surrounded by marketing people, but I developed this bizarre obsession over &quot;my brand&quot; or &quot;persona&quot; that I portrayed to the online world. For years I have gone through exercises about how to build followers, read the analytics, all on a mission to appear professional.</p><p>It wasn't a fruitless venture. I'm pretty sure my blog and Twitter account secured my many MVP awards. What I wasn't expecting was the dependency this obsession created, which was this weird addiction to &quot;likes&quot;.</p><h1>&quot;Likes&quot; = Validation</h1><p>You see, the MVP program was how I validated doing all the extra work on keeping up with technology. I love tech, I really really do, but had someone not pointed me in the direction of building a brand around JavaScript and/or Front-End Web Dev, I probably never would have gone down that road. As I built up that persona, th more likes and engagement I got, and the more likely the MVP Program would notice me. Eventually they did notice me and <em>TA-DA</em>, I became a Microsoft MVP.</p><p>The MVP Award was where I think this all started. It was a reward for being so...professional or knowledgable or hard-working in my B-time or whatever. I loved it and somehow rationalized that people get directly rewarded for their side efforts. I suppose that is sort of true, depending on how to define the term &quot;reward&quot;, but in general I don't think it's as big of a perk as the MVP Award and all the benefits that come with it.</p><p>As the years went by, I started to expect that sort of reward for my effort and equated with validation and started to <em>need</em> it in order feel like I was succeeding as a technology professional.</p><p>Then, I decided to let go of the MVP Award and chase my dreams.</p><h1>Validation Withdrawl</h1><p>This is the part in the story where I started chase my game development hopes and dreams. It started out well, but not long after doing some game development streams on Mixer (yeah, remember Mixer?) and some blog posts, I started to feel uneasy about my ability and my &quot;success&quot; as a technology professional.</p><p>Building an expertise takes time and effort. It takes even more time and effort when you day job doesn't care or need that expertise, and you have a new family to take care of. I kept getting caught up on how long it would take for me to &quot;become a professional&quot; or whatever. I kept checking my different social media analytics and started focusing a lot of time and energy on making game development content rather than actual games.</p><p>I resarched marketing techniques, read social media management guides, and started learning how to promote my &quot;dream game&quot; before I had even really done anything other than a couple of game jams. I checked the &quot;likes&quot; multiple times a day and tried to figure out how to maximize the reach of my content, continuing to get in the way of building an actual commercial video game, but searching (somewhat desperately) for that acknowledgement through likes, thumbs up, post engagement, and views.</p><p>It kept coming and going, but it would always block my progress on whatever project I was working on. My game jams were about the content I produced, not the game itself. After a jam, I would share and talk about &quot;the next steps&quot; and all the planning I was doing instead of <em>actually doing</em> something with the project. No matter how much time I spent, there wasn't enough to both &quot;share to the community&quot; and build a game.</p><p>It was an old habit that needed to go away, and so earlier this year I just stopped sharing on social media.</p><p>That break was supposed last about month. That was about three months ago.</p><h1>Realization and Return</h1><p>In my three month break, I looked inward and thought about what I've done with social media over...well, most of my professional life. I've decided that it's time to start figuring out how or if I should return to the social networks, but I'm taking it slow and flipping the script on my social media shares.</p><p>Rather than measuring my successwith likes and views, I'm looking at the social platforms as ways for me to grow personally and professionally. I'm asking myself two questions:</p><ol><li>What does my contribution do for the reader/viewer/you?</li><li>What does my contribution do for me?</li></ol><p>Does v7 of my website coincide with this? It sure does.</p><p>I'll elaborate further another day, but just writing this post helps me reflect on my own story. It feels honest and healthy to write all this down and I'm creating content for both  <em>me</em> and the readers. I share not only because I crave validation, but also think that my sharing my experience might help others learn something.</p><p>This is site and blog is the start. It has a purpose for both my personal and professional growth and so it is alive again.</p><h2>Aren't you just going to obsess over the analytics again?</h2><p>I don't think so. I have analytics enabled on the site, but I have purpose for this: to learn. More specifically, I want to learn about what analytics can teach me about my audience. It's not just about views and the likes, a but what the readers (and players) are telling me through their engagement.</p><p>Plus-- whether I like it or not, analytics plays a critical role in decision making these days. I see it in my day job, and I see it in game development. Either way, it's probably having some literacy around the different kinds of analytics out there can't hurt me.</p><p>The trick is not wrapping success around the metrics.</p><h1>Next Steps</h1><p>I think it's going to be YouTube and other video content like livestreams. I really enjoy making my little movies, and with the pandemic in full swing, it's hampered my ability to practice my presentation skills at conferences with an audience. Between platforms like YouTube, LinkedIn, Twitch , and even Discord, there are some good opportunities to sharpen my video presentation skills.</p><p>If I'm being honest, I can't see Twitter or Facebook making a comeback in my day-to-day life. Possibly a place to echo posts or share activity, but I'm just not feeling the &quot;hot takes&quot; nature that comes with Twitter and Facebook. As for Instagram...I'm still undecided. I don't have a lot of pictures to share behind the scenes, but again-- never say never.</p><p>Regardless of where I share content, the website will be hub and the question will the same: What does sharing do to help me grow personally and/or professionally?</p><p>Thanks for playing. ~ DW</p><hr><p><em>Photo Credit</em></p><p>Photo by <a href="https://unsplash.com/@neonbrand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">NeONBRAND</a> on <a href="https://unsplash.com/s/photos/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">Unsplash</a></p>]]></content>
+    
+    <summary type="html">
+    
+      I decided to take a month off of contributing to social media. More specifically Twitter and YouTube, but Facebook and Instagram as well. That single month has turned into just over three months now, and I learned a few things about myself and how I think my return to some social media will be a good thing.
+    
+    </summary>
+    
+      <category term="inner monologue" scheme="https://westerndevs.com/categories/inner-monologue/"/>
+    
+    
+      <category term="social media" scheme="https://westerndevs.com/tags/social-media/"/>
+    
+      <category term="twitter" scheme="https://westerndevs.com/tags/twitter/"/>
+    
+      <category term="youtube" scheme="https://westerndevs.com/tags/youtube/"/>
+    
+      <category term="analytics" scheme="https://westerndevs.com/tags/analytics/"/>
+    
+      <category term="acceptance" scheme="https://westerndevs.com/tags/acceptance/"/>
+    
+  </entry>
+  
+  <entry>
+    <title type="html">Lucky Number v7</title>
+    <link href="https://westerndevs.com/technology/inner-monologue/lucky-number-v7/" rel="alternate" type="text/html"/>
+    <id>https://westerndevs.com/technology/inner-monologue/lucky-number-v7/</id>
+    <published>2021-05-24T16:00:00.000Z</published>
+    <updated>2021-06-28T14:26:14.795Z</updated>
+	<author>
+	
+	  
+	  <name>David Wesst</name>
+	  <email>questions@davidwesst.com</email>
+	
+	  <uri>https://westerndevs.com</uri>
+	</author>
+    
+    <content type="html"><![CDATA[<p>I fixed up my blog-website-thingy again. I'm calling this v7, although I'm pretty sure there are a few incarnations of the site that were lost early on in my years, but v7 seems about right for the content I'm sharing here. In any case-- I thought I'd share the &quot;why&quot; around the new website revamp and how I think a project like this is just what I need.</p><h1>Why did you stop blogging, anyway?</h1><p>I've been thinking a lot about that lately, and the reason I stopped was that I didn't have a reason to do it anymore.</p><p>I started blogging because I was told that it was one of the things I <em>should be doing</em> and had to <em>keep doing</em> to get (and stay) in the Microsoft MVP program as a Front End Web Development MVP (formerly known as the Internet Explorer MVP program). Once I decided to leave the Front End Web Dev stuff behind to make way for my passion for video games and stuff, why should I bother blogging?</p><p>And so that was that. I stopped blogging and made way for all the video game development effort I could muster! Sure, there was the occassional link to a YouTube video or a little tech problem that I've solved on the side, but for the most part, it was dead.</p><p>0 commercial games later, and a few false restarts I'm back on the blog and the website...again.</p><h1>So why bother starting it up again?</h1><p>Well, I stopped because I gave up my reason to do so. I am starting because I found a reason: I want to share and learn.</p><p>Let's break that down a little:</p><h2>&quot;I want to&quot;</h2><p>That is probably the most important part of the whole reason. I want to make content. I'm feeling the need to do it. Maybe its habit or nostalgia for the days where creating content was part of keeping my professional status, either way it's something I like to do and the blog is a lightweight and easy way to do that.</p><h2>&quot;share&quot;</h2><p>Thinking back to when I blogged regularly as part of my MVP contribution, I didn't realize how much of a platform I had to share stories, advice, how-tos and whatever else. It really was quite the reach, and quite a privilege. My experience and work has changed a lot, but there is a still a lot to share for others.</p><p>The big difference this time around is that I'm not worried about whether or not it fits &quot;my career goals&quot; or my &quot;professional focus&quot;.  It's really about me putting my thoughts together in a cohesive way that might help someone reflect and make a decision. In getting v7 of the website ready <em>I was that &quot;someone&quot;</em> and looking over all my old posts confirmed that this is a good idea.</p><p>But, even if you (or me) don't find my posts helpful in the long or short term, that's okay. It feels good to get a post out there. There's a gratifying feeling that comes with putting a post together that helps me, and that makes it worth it too.</p><h2>&quot;learn&quot;</h2><p>As cliché as it sounds, I'm a life long learner. Content creation and management is something that keeps coming up in my side projects, and yet I've never taken the time to properly learn and understand how to do it. It's not about the marketing side, but rather what it means to contribute, learn, and engage with your audience as a solo content creator.</p><p>Plus, there are these weird &quot;little problems&quot; I've always had in my years of creating content with with MVP program. I'm hoping that with fresh eyes and new experiences with me, I can tackle these problems with a different perspective that I have in the past.</p><p>Ultimately, there is a lot to unpack here-- but assuming I keep this going, I'll continue to share what I learn, which will lead to more sharing and then more learning and...you see how this is good thing? :)</p><h2>The Point</h2><p>Scott Hanselman shared this idea <a href="https://www.hanselman.com/blog/do-they-deserve-the-gift-of-your-keystrokes" target="_blank" rel="noopener">(reference)</a> of valuing your effort in helping through your keystrokes (I'm greatly paraphrasing the idea). I spend time helping others one-on-one, but it's usually the same stories, ideas, thought patterns, and so on that people find helpful. This website and blog is my chance to share new things and old with a fresh perspective, one that is owned and driven by my values and ideas and not those of my employer or community.</p><p>Maybe its selfish to think this is a good idea, but that's fine because it's my website, my blog, and my idea that I think is good.</p><p>And if I think it's good, then that's a start.</p><p>Thanks for playing. ~ DW</p>]]></content>
+    
+    <summary type="html">
+    
+      I fixed up my blog-website-thingy again. I&#39;m calling this v7, although I&#39;m pretty sure there are a few incarnations of the site that were lost early on in my years, but v7 seems about right for the content I&#39;m sharing here. In any case-- I thought I&#39;d share the &quot;why&quot; around the new website revamp and how I think a project like this is just what I need.
+    
+    </summary>
+    
+      <category term="technology" scheme="https://westerndevs.com/categories/technology/"/>
+    
+      <category term="inner monologue" scheme="https://westerndevs.com/categories/technology/inner-monologue/"/>
+    
+    
+      <category term="blog" scheme="https://westerndevs.com/tags/blog/"/>
+    
+      <category term="website" scheme="https://westerndevs.com/tags/website/"/>
+    
+      <category term="graphql" scheme="https://westerndevs.com/tags/graphql/"/>
+    
+  </entry>
+  
+  <entry>
     <title type="html">From Travis CI to GitHub Actions (and GitHub Pages)</title>
     <link href="https://westerndevs.com/devops/from-travis-ci-to-github-actions/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/devops/from-travis-ci-to-github-actions/</id>
     <published>2020-11-10T23:36:00.000Z</published>
-    <updated>2020-12-04T01:32:16.184Z</updated>
+    <updated>2021-06-28T14:26:14.795Z</updated>
 	<author>
 	
 	  
@@ -59,7 +209,7 @@
     <link href="https://westerndevs.com/devlog/out-the-door/out-the-door-post-jam-update/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/devlog/out-the-door/out-the-door-post-jam-update/</id>
     <published>2020-11-09T14:00:00.000Z</published>
-    <updated>2020-12-04T01:32:16.184Z</updated>
+    <updated>2021-06-28T14:26:14.795Z</updated>
 	<author>
 	
 	  
@@ -101,7 +251,7 @@
     <link href="https://westerndevs.com/devlog/a-solo-gamejam-experience-ld47/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/devlog/a-solo-gamejam-experience-ld47/</id>
     <published>2020-10-23T13:00:00.000Z</published>
-    <updated>2020-12-04T01:32:16.184Z</updated>
+    <updated>2021-06-28T14:26:14.795Z</updated>
 	<author>
 	
 	  
@@ -141,7 +291,7 @@
     <link href="https://westerndevs.com/devlog/game-portfolio-review-2020/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/devlog/game-portfolio-review-2020/</id>
     <published>2020-09-18T13:00:00.000Z</published>
-    <updated>2020-12-04T01:32:16.184Z</updated>
+    <updated>2021-06-28T14:26:14.795Z</updated>
 	<author>
 	
 	  
@@ -181,7 +331,7 @@
     <link href="https://westerndevs.com/devlog/little-shop-of-wall-street-01-release-notes/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/devlog/little-shop-of-wall-street-01-release-notes/</id>
     <published>2020-07-02T15:13:00.000Z</published>
-    <updated>2020-12-04T01:32:16.184Z</updated>
+    <updated>2021-06-28T14:26:14.795Z</updated>
 	<author>
 	
 	  
@@ -219,7 +369,7 @@
     <link href="https://westerndevs.com/Game-Design/How-GitHub-Makes-Game-Making-Easier-For-NonCoders/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/Game-Design/How-GitHub-Makes-Game-Making-Easier-For-NonCoders/</id>
     <published>2020-02-19T20:48:36.000Z</published>
-    <updated>2020-12-04T01:32:16.180Z</updated>
+    <updated>2021-06-28T14:26:14.795Z</updated>
 	<author>
 	
 	  
@@ -255,7 +405,7 @@
     <link href="https://westerndevs.com/Devlog/Jan-2020-Devlog/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/Devlog/Jan-2020-Devlog/</id>
     <published>2020-02-04T21:03:24.000Z</published>
-    <updated>2020-12-04T01:32:16.180Z</updated>
+    <updated>2021-06-28T14:26:14.795Z</updated>
 	<author>
 	
 	  
@@ -291,7 +441,7 @@
     <link href="https://westerndevs.com/Game-Development/Where-To-Find-Your-Gamedev-Community/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/Game-Development/Where-To-Find-Your-Gamedev-Community/</id>
     <published>2020-01-21T11:09:00.000Z</published>
-    <updated>2020-12-04T01:32:16.180Z</updated>
+    <updated>2021-06-28T14:26:14.795Z</updated>
 	<author>
 	
 	  
@@ -329,7 +479,7 @@
     <link href="https://westerndevs.com/_/No-Cost-Game-Design-Toolbox/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/_/No-Cost-Game-Design-Toolbox/</id>
     <published>2020-01-13T21:51:04.000Z</published>
-    <updated>2020-12-04T01:32:16.180Z</updated>
+    <updated>2021-06-28T14:26:14.795Z</updated>
 	<author>
 	
 	  
@@ -365,7 +515,7 @@
     <link href="https://westerndevs.com/Game-Development/gameoff2019-gamejam-devlog/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/Game-Development/gameoff2019-gamejam-devlog/</id>
     <published>2019-11-26T14:57:00.000Z</published>
-    <updated>2020-12-04T01:32:16.180Z</updated>
+    <updated>2021-06-28T14:26:14.795Z</updated>
 	<author>
 	
 	  
@@ -395,7 +545,7 @@
     <link href="https://westerndevs.com/_/streaming-code-and-games-on-mixer/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/_/streaming-code-and-games-on-mixer/</id>
     <published>2018-09-27T17:55:42.000Z</published>
-    <updated>2020-12-04T01:32:16.180Z</updated>
+    <updated>2021-06-28T14:26:14.791Z</updated>
 	<author>
 	
 	  
@@ -421,7 +571,7 @@
     <link href="https://westerndevs.com/Development/f12-chooser-is-dev-tool-thing/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/Development/f12-chooser-is-dev-tool-thing/</id>
     <published>2018-03-28T17:10:00.000Z</published>
-    <updated>2020-12-04T01:32:16.180Z</updated>
+    <updated>2021-06-28T14:26:14.791Z</updated>
 	<author>
 	
 	  
@@ -457,7 +607,7 @@
     <link href="https://westerndevs.com/Development/typescript-or-javascript/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/Development/typescript-or-javascript/</id>
     <published>2018-03-15T15:40:00.000Z</published>
-    <updated>2020-12-04T01:32:16.180Z</updated>
+    <updated>2021-06-28T14:26:14.791Z</updated>
 	<author>
 	
 	  
@@ -489,7 +639,7 @@
     <link href="https://westerndevs.com/Development/crowdsourcing-docs-is-cool/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/Development/crowdsourcing-docs-is-cool/</id>
     <published>2018-03-13T13:40:00.000Z</published>
-    <updated>2020-12-04T01:32:16.180Z</updated>
+    <updated>2021-06-28T14:26:14.791Z</updated>
 	<author>
 	
 	  
@@ -521,7 +671,7 @@
     <link href="https://westerndevs.com/web/websummit-wsl/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/web/websummit-wsl/</id>
     <published>2017-09-20T22:35:00.000Z</published>
-    <updated>2020-12-04T01:32:16.176Z</updated>
+    <updated>2021-06-28T14:26:14.791Z</updated>
 	<author>
 	
 	  
@@ -559,7 +709,7 @@
     <link href="https://westerndevs.com/web/websummit-sonar/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/web/websummit-sonar/</id>
     <published>2017-09-19T22:35:00.000Z</published>
-    <updated>2020-12-04T01:32:16.176Z</updated>
+    <updated>2021-06-28T14:26:14.791Z</updated>
 	<author>
 	
 	  
@@ -587,154 +737,6 @@
       <category term="sonar" scheme="https://westerndevs.com/tags/sonar/"/>
     
       <category term="accessibility" scheme="https://westerndevs.com/tags/accessibility/"/>
-    
-  </entry>
-  
-  <entry>
-    <title type="html">Service Workers and PWAs are Super Cool</title>
-    <link href="https://westerndevs.com/web/websummit-pwa/" rel="alternate" type="text/html"/>
-    <id>https://westerndevs.com/web/websummit-pwa/</id>
-    <published>2017-09-18T23:35:00.000Z</published>
-    <updated>2020-12-04T01:32:16.176Z</updated>
-	<author>
-	
-	  
-	  <name>David Wesst</name>
-	  <email>questions@davidwesst.com</email>
-	
-	  <uri>https://westerndevs.com</uri>
-	</author>
-    
-    <content type="html"><![CDATA[<p><em>This is part of a series of posts capturing the highlights from my experience at the <a href="https://summit.microsoftedge.com/" target="_blank" rel="noopener">Microsoft Edge Web Summit 2017</a></em></p><p>One of the core items highlighted by the Microsoft Edge team, along with many others who were just web professionals, was the importance of Progressive Web Apps (PWAs). I started out thinking they were something that <em>could</em> be interesting one day, but left the conference convinced that this will change the way we think of the web.</p><h2>What is a PWA?</h2><p><img src="https://davidwesst.blob.core.windows.net/blog/websummit-pwa/pwa-logo.svg" alt="PWA Logo from diekus.net/logo-pwinter"></p><p><a href="https://developers.google.com/web/progressive-web-apps/" target="_blank" rel="noopener">Google has been talking about PWAs</a> for a while now, but in my words they are web applications that use a progressive enhancement design strategy to add device native features, when available.</p><p>So, it's just a web app with some fancy bells and whistles, like offline loading once the site has been downloaded once and native device API access, like camera access or push notifications straight to the device.</p><p>If it sounds like regular installed application rather than a web application, then you're understanding this correctly.</p><p>PWAs <em>could</em> be the next wave of &quot;apps&quot; for our devices, but they won't need a store front. Rather, the user can just navigate to the site and &quot;install&quot; the site, which can be cached for offline usage amongst other things.</p><h2>What makes them super cool?</h2><p>Outside of the coolness of extending the reach of the web into offline world, it's also built on a set of open web standards.</p><p>Standards give developers APIs to use across platforms, but they also give the platform holders something common to build against. Both Windows and Android have big plans for PWAs, giving web developers a whole new opportunity to use our existing skills to deliver great software.</p><p>Just to be clear, software that can be offline and installed natively, using web development tools and skills.</p><p>That <em>is</em> super cool.</p><h2>So, where do I start?</h2><p>With the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API" target="_blank" rel="noopener">Service Worker API</a>.</p><p>This is the first step in building a great PWA, as it allows you to &quot;install&quot; the web application on the device. Once you have it installed, then you can worry about the rest of the functionality and how it should work.</p><p>On top of that, start looking at some of the new APIs that have been coming out of the W3C like the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Push_API" target="_blank" rel="noopener">Push API</a>, the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API" target="_blank" rel="noopener">Payment Request API</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API" target="_blank" rel="noopener">IndexedDB</a>.</p><p>This should give you a good idea of what can do with a PWA rather than a regular old web application.</p>]]></content>
-    
-    <summary type="html">
-    
-      One of the core items highlighted by the Microsoft Edge team, along with many others who were just web professionals, was the importance of Progressive Web Apps (PWAs). I started out thinking they were something that could be interesting one day, but left the conference convinced that this will change the way we think of the web.
-    
-    </summary>
-    
-      <category term="web" scheme="https://westerndevs.com/categories/web/"/>
-    
-    
-      <category term="javascript" scheme="https://westerndevs.com/tags/javascript/"/>
-    
-      <category term="microsoft-edge" scheme="https://westerndevs.com/tags/microsoft-edge/"/>
-    
-      <category term="service-workers" scheme="https://westerndevs.com/tags/service-workers/"/>
-    
-      <category term="progressive-web-apps" scheme="https://westerndevs.com/tags/progressive-web-apps/"/>
-    
-  </entry>
-  
-  <entry>
-    <title type="html">Posh-GVM, the Groovy Version Manager for Powershell</title>
-    <link href="https://westerndevs.com/java/posh-gvm/" rel="alternate" type="text/html"/>
-    <id>https://westerndevs.com/java/posh-gvm/</id>
-    <published>2017-08-17T14:00:00.000Z</published>
-    <updated>2020-12-04T01:32:16.176Z</updated>
-	<author>
-	
-	  
-	  <name>David Wesst</name>
-	  <email>questions@davidwesst.com</email>
-	
-	  <uri>https://westerndevs.com</uri>
-	</author>
-    
-    <content type="html"><![CDATA[<p>Here's another dev thing I use: <a href="https://github.com/flofreud/posh-gvm" target="_blank" rel="noopener">Posh-GVM</a>, a Groovy version manager that works for Windows.</p><p>You remember Groovy right? The language that was all the rage at some point with Groovy on Grails?</p><p>All kidding aside, in my adventures as an enterprise JDK developer, I've come across a number of Groovy on Grails applications. These projects tend to span multiple versions of Grails, ranging from 2.3.x which works on older versions of Tomcat, upto 3.2.x for of of our newer solutions. Instead of manually configuring my system for each project, I just use Posh-GVM as recommended by the folks who brought you <a href="http://sdkman.io/" target="_blank" rel="noopener">SDKMan for Unix systems</a>.</p><p><img src="https://davidwesst.blob.core.windows.net/blog/posh-gvm/poshgvm-example.gif" alt="Posh-GVM in action" title="Posh-GVM in action in a Powershell terminal"></p><h2>What does it do?</h2><p>It handles switching between versions of Groovy, Grails, and a bunch more technologies without having to fuss with configuring your system. It switch between versions of Grails, Groovy, Gradle, Koitlin, and more with <code>gvm use &lt;candidate&gt; &lt;version&gt;</code> where candidate is the technology and version is...well, the version.</p><h2>Using Posh-GVM</h2><p>Posh-GVM is a Windows port to <a href="http://sdkman.io/" target="_blank" rel="noopener">SDKMan</a> formerly known as the GVM, or Groovy eVironment Manager. Instead of requiring a Unix system to run, it requires Powershell.</p><p>To install it, I followed the README instructions to install it via <a href="https://github.com/flofreud/posh-gvm#via-short-script" target="_blank" rel="noopener">a short script</a>. I tried using the PsGet method described, but didn't have any luck finding the module. More on that later.</p><p>Once installed (and added to your profile) you can run <code>gvm help</code> in the Powershell terminal and you should see a lovely help menu with all the goodies you can install and switch your fingertips.</p><h3>Won't these conflict with the versions I already have installed?</h3><p>No. It installs the tools in a different directory, so you should be good.</p><p>That being said, you probably don't need to have a local version of Grails or whatever tool installed anymore because Posh-GVM will handle that for you.</p><h2>What makes it cool?</h2><p>It's cool because it works on Windows, without the need for Bash or Cygwin.</p><p>The fact that it covers a number of tools, including Grails, Groovy, and Gradle (and many more) is a pretty nifty too.</p><h2>What are the drawbacks?</h2><p>There are two that stand out to me, but nothing that has made me abandon the tool for something else.</p><h3>Java not included</h3><p>The first being that it doesn't support Java like it's Unix couterpart. My guess is that Java is something special when it comes to Unix VS Windows and was eliminated for that reason. We have <a href="http://www.westerndevs.com/java/jabba/" target="_blank" rel="noopener" title="My post on Jabba, the Java version manager for everyone">Jabba</a> for that on Windows, but it would be nice to have all the pieces in to the puzzle in a single tool.</p><h3>Lack of Project Activity</h3><p>The second is the lack of updates.</p><p>As of this writing, it hasn't been updated since <a href="https://github.com/flofreud/posh-gvm/commit/2145f8a65c5bf317e96664ebb03bf84c569ba770" target="_blank" rel="noopener">December 2015</a> while SDKMan has continued to be actively developed.</p><p>This isn't necessarily a bad thing, as there haven't been any pull requests in quite some time either. It's just something I note as a risk when I adopt an open source tool.</p><hr><p>Ultimately, I think this tool is a great solution for people that need to use any of these tools, but don't want to couple themselves to Cygwin or Bash for Windows. It has solved my Grails, Groovy, and Gradle versioning issues on Windows, and that is more than enough to make it a win in my books.</p>]]></content>
-    
-    <summary type="html">
-    
-      Here&#39;s another dev thing I use: Posh-GVM, a Groovy version manager that works for Windows.
-    
-    </summary>
-    
-      <category term="java" scheme="https://westerndevs.com/categories/java/"/>
-    
-    
-      <category term="powershell" scheme="https://westerndevs.com/tags/powershell/"/>
-    
-      <category term="version manager" scheme="https://westerndevs.com/tags/version-manager/"/>
-    
-      <category term="grails" scheme="https://westerndevs.com/tags/grails/"/>
-    
-      <category term="groovy" scheme="https://westerndevs.com/tags/groovy/"/>
-    
-      <category term="gradle" scheme="https://westerndevs.com/tags/gradle/"/>
-    
-  </entry>
-  
-  <entry>
-    <title type="html">Jabba, the Java Version Manager for Everyone</title>
-    <link href="https://westerndevs.com/java/jabba/" rel="alternate" type="text/html"/>
-    <id>https://westerndevs.com/java/jabba/</id>
-    <published>2017-08-16T13:35:00.000Z</published>
-    <updated>2020-12-04T01:32:16.176Z</updated>
-	<author>
-	
-	  
-	  <name>David Wesst</name>
-	  <email>questions@davidwesst.com</email>
-	
-	  <uri>https://westerndevs.com</uri>
-	</author>
-    
-    <content type="html"><![CDATA[<p>Here's another dev thing I use: <a href="https://github.com/shyiko/jabba" target="_blank" rel="noopener">Jabba</a>, a cross-platform Java version manager that works for Windows.</p><p>Over the the past few years, I've been doing JDK-based development in an enterprise Windows environment. In that time, I've continually struggled with being able to easily switch between versions of Java on my machine, depending on the project. We have legacy application that run old Java, and modern applications that run newer versions of Java. Being able to switch versions, without having to manually change my environment variables or handle mula</p><p>Now, that is no longer a problem thanks to my good friend, Jabba.</p><p><img src="https://davidwesst.blob.core.windows.net/blog/jabba/jabba-example.gif" alt="Jabba in Action" title="Jabba in Action in a Powershell terminal"></p><h2>What does it do?</h2><p>Exactly what you think: it changes the version of Java you're running on the fly. No need to install anything or worry about conflicting versions, or searching out and installing the specific Java version you need for your project.</p><h2>Using Jabba</h2><p>First thing is installing Jabba, which is a breeze thanks to the following the <a href="https://github.com/shyiko/jabba#windows-10" target="_blank" rel="noopener">instructions provided</a> in the repository README. After that, I included it in my Powershell profile so it initializes it when I start Powershell.</p><figure class="highlight taggerscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Jabba</span><br><span class="line">if (Test-Path "H:<span class="symbol">\U</span>sers<span class="symbol">\d</span>w<span class="symbol">\.</span>jabba<span class="symbol">\j</span>abba.ps1") </span><br><span class="line">&#123; </span><br><span class="line">   . "$&#123;HOME&#125;<span class="symbol">\.</span>jabba<span class="symbol">\j</span>abba.ps1" </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>To test it out, I run a <code>refreshenv</code> command in the Powershell window, and run <code>jabba -h</code> to see if I get the help file.The commands are pretty straightforward. You can list all the available versions, using <code>jabba ls-remote</code>, install the one(s) you need need with <code>jabba install my-version</code> and you're good to go to run that version of Java.</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">H</span>:\src</span><br><span class="line">&gt; jabba</span><br><span class="line">Java <span class="keyword">Version</span> Manager (https:<span class="comment">//github.com/shyiko/jabba).</span></span><br><span class="line"></span><br><span class="line">Usage:</span><br><span class="line">  jabba [flags]</span><br><span class="line">  jabba [command]</span><br><span class="line"></span><br><span class="line">Available Commands:</span><br><span class="line">  install     Download and install JDK</span><br><span class="line">  uninstall   Uninstall JDK</span><br><span class="line">  link        Resolve or <span class="keyword">update</span> a link</span><br><span class="line">  unlink      Delete a link</span><br><span class="line">  <span class="keyword">use</span>         Modify PATH &amp; JAVA_HOME to <span class="keyword">use</span> specific JDK</span><br><span class="line">  current     <span class="keyword">Display</span> currently '<span class="keyword">use</span>'<span class="keyword">ed</span> <span class="keyword">version</span></span><br><span class="line">  <span class="keyword">ls</span>          <span class="keyword">List</span> installed versions</span><br><span class="line">  <span class="keyword">ls</span>-remote   <span class="keyword">List</span> remote versions available <span class="keyword">for</span> install</span><br><span class="line">  deactivate  Undo effects of `jabba` <span class="keyword">on</span> current <span class="keyword">shell</span></span><br><span class="line">  alias       Resolve or <span class="keyword">update</span> <span class="keyword">an</span> alias</span><br><span class="line">  unalias     Delete <span class="keyword">an</span> alias</span><br><span class="line">  <span class="keyword">which</span>       <span class="keyword">Display</span> path to installed JDK</span><br><span class="line"></span><br><span class="line">Flags:</span><br><span class="line">      --<span class="keyword">version</span>   <span class="keyword">version</span> of jabba</span><br><span class="line"></span><br><span class="line"><span class="keyword">Use</span> <span class="string">"jabba [command] --help"</span> <span class="keyword">for</span> <span class="keyword">more</span> information <span class="keyword">about</span> a command.</span><br></pre></td></tr></table></figure><p>And now you're good to go with whatever version of Java your current command line needs.</p><h3>Won't this conflict with my installed version of Java?</h3><p>Nope. The <a href="https://github.com/shyiko/jabba#faq" target="_blank" rel="noopener">FAQ</a> section of the README covers that.</p><p>In my case, I uninstalled all the different JDK's I had installed to ensure there were no conflicts, and I like to remove tools I'm no longer needing on my machine.</p><h3>But what about my really old legacy JDK on my machine?</h3><p>If you check the <a href="https://github.com/shyiko/jabba#usage" target="_blank" rel="noopener">usage</a> section of the README, you can use Jabba to install JDKs that are hosted in a custom spot.</p><p>In the case of the depracated versions of Java that are difficult to come by, I use the Zulu or OpenJDK versions that are available through Jabba. You can see them when you run <code>jabba ls-remote</code>. It's not an exact replica of the Oracle JDK, but I haven't hit any issues in my legacy enterprise applications.</p><h2>What makes it cool?</h2><p>My prefernce for any dev tool is to have it available through the command line.</p><p>When it comes to Java and Windows, the command line tools out there for Java are a bit limited. The standard answer seems to be to use Powershell to update your environment variables, but that doesn't solve the need to find and install the version I need.</p><p>Jabba solves that for me.</p><p>Plus, since it's written in Go, it works on OSX and Linux, so anyone can use the tool.</p><p>And just to put some more icing on the cake, the solo developer building Jabba was kind enough to implement <a href="https://github.com/shyiko/jabba/issues/67#issuecomment-300869749" target="_blank" rel="noopener">a feature I supported</a> on over a weekend which made the tool work even better for me at work and at home. So, thank you <a href="https://github.com/shyiko" target="_blank" rel="noopener">Stanley Shyiko</a>.</p><h2>What are the drawbacks?</h2><p>I haven't hit any so far, which is pretty impressive considering I use this tools almost every day.</p><hr><p>If you're an enterprise Java developer that needs to support legacy applications, I would strongly suggest taking a look at Jabba. With <a href="https://support.microsoft.com/en-ca/help/13853/windows-lifecycle-fact-sheet" target="_blank" rel="noopener">Windows 7 extended support ending</a> in the next few years, your enterprise will be looking to move you to a new OS, Windows 10 or otherwise.</p><p>With Jabba, you'll at least have a tool that works regardless of how your development machine changes.</p>]]></content>
-    
-    <summary type="html">
-    
-      Here&#39;s another dev thing I use: Jabba, a cross-platform Java version manager that works for Windows.
-    
-    </summary>
-    
-      <category term="java" scheme="https://westerndevs.com/categories/java/"/>
-    
-    
-      <category term="powershell" scheme="https://westerndevs.com/tags/powershell/"/>
-    
-      <category term="version manager" scheme="https://westerndevs.com/tags/version-manager/"/>
-    
-      <category term="java" scheme="https://westerndevs.com/tags/java/"/>
-    
-      <category term="jabba" scheme="https://westerndevs.com/tags/jabba/"/>
-    
-  </entry>
-  
-  <entry>
-    <title type="html">NVS, the Node Version Manger for Everyone</title>
-    <link href="https://westerndevs.com/javascript/nvs/" rel="alternate" type="text/html"/>
-    <id>https://westerndevs.com/javascript/nvs/</id>
-    <published>2017-08-15T16:35:00.000Z</published>
-    <updated>2020-12-04T01:32:16.176Z</updated>
-	<author>
-	
-	  
-	  <name>David Wesst</name>
-	  <email>questions@davidwesst.com</email>
-	
-	  <uri>https://westerndevs.com</uri>
-	</author>
-    
-    <content type="html"><![CDATA[<p>Here's another dev thing I use: <a href="https://github.com/jasongin/nvs" target="_blank" rel="noopener">NVS</a>, a cross-platform Node version manager that works for Windows.</p><p>It's no secret that I like JavaScript, which includes <a href="nodejs.org/">Node</a>. The history of Node releases has been fast, furious, and <a href="https://stackoverflow.com/questions/27309412/what-is-the-difference-between-node-js-and-io-js" target="_blank" rel="noopener">somewhat turbulent</a> which led to a lot of different versions of Node being released. Manually managing the version of Node in you development enviornment is painful, just like it is for Java. For the Linux and Unix people, there was <a href="https://github.com/creationix/nvm" target="_blank" rel="noopener">nvm</a> and <a href="https://github.com/tj/n" target="_blank" rel="noopener">n</a>, but nothing really comparable for Windows.</p><p>Until NVS that is.</p><h2>What does it do?</h2><p>The Node Version Switcher switches versions of Node in environment. So, if you need to jump from 4.8.4 to 6.11.1, no problem. Just a quick <code>nvs add 6.11.1</code> and <code>nvs use 6.11.1</code> and you're ready to go.</p><p>No downloading binaries. No changing environment variables.</p><h2>Using NVS</h2><p>Although supported on <a href="https://github.com/jasongin/nvs#mac-linux" target="_blank" rel="noopener">OSX and Linux</a>, I'm going to focus on Windows as that is the environment where I use it the most.</p><p>You have two different installtion options on Windows, the first being a traditional installer file that you can download from <a href="https://github.com/jasongin/nvs/releases" target="_blank" rel="noopener">the release page</a> for the project.</p><p>The second is using <a href="https://github.com/jasongin/nvs/blob/master/doc/SETUP.md#manual-setup---powershell" target="_blank" rel="noopener">Powershell</a> or the good old fashioned <a href="https://github.com/jasongin/nvs/blob/master/doc/SETUP.md#manual-setup---command-prompt" target="_blank" rel="noopener">command line</a>, both of which are described on the <a href="https://github.com/jasongin/nvs/blob/master/doc/SETUP.md" target="_blank" rel="noopener">setup page</a> for the project.</p><p>NVS even supported Bash for Windows, which is pretty great for those Linux-y Windows people, although it requires a few manual configuration steps.</p><p>Once you get things installed, you can run <code>nvs</code> and go through the interactive menu goodness to get your favourite flavour of Node installed.</p><p><img src="https://davidwesst.blob.core.windows.net/blog/nvs/nvs-menu.gif" alt="NVS Interactive Console Menu" title="NVS Consle Menu in Action"></p><p>I really dig this interactive command line menu, which was created by the NVS author for NVS, and eventually turned into it's own library called <a href="https://github.com/jasongin/console-menu" target="_blank" rel="noopener">console-menu</a>. But that is post for another time.</p><h3>Won't this conflict with my installed version of Node?</h3><p>Not from my experience.</p><p>When I started with NVS, I had a version of Node installed, but I ended up uninstalling just to simplify my development environment. I kept forgetting that I had a base installation of Node installed. This confusion would result in me running <code>node --version</code> only to get a conflicting version number than the one I would see in my Windows Application list, and get me triaging an issue that didn't exist.</p><p>Plus, NVS provides a feature to set a default version of using the <code>nvs link</code> command.</p><h3>What about the global packages I've installed?</h3><p>In the case where you install a package globally using a certain version of Node, when you switch to a different version, you could face some problems. More specifically, around code features available in Node based on what version of Node you've installed, or around the nested dependencies that get installed as part of a package your project needs.</p><p>Not an issue, as NVS provides the <code>migrate</code> command to move packages, global or otherwise from one version of Node to another.</p><h3>But what about my weird, custom Node versions?</h3><p>No issue, because you can point to whatever directory you want as source for Node binaries using the <a href="https://github.com/jasongin/nvs/blob/master/doc/ALIAS.md#aliasing-directories" target="_blank" rel="noopener">aliasing capabilities</a>.</p><figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">C:<span class="tag">\<span class="name">Users</span></span><span class="tag">\<span class="name">dw</span></span><span class="tag">\<span class="name">src</span></span><span class="tag">\<span class="name">_</span></span>scratch</span><br><span class="line">&gt; node --version</span><br><span class="line">v8.1.4</span><br><span class="line"></span><br><span class="line">C:<span class="tag">\<span class="name">Users</span></span><span class="tag">\<span class="name">dw</span></span><span class="tag">\<span class="name">src</span></span><span class="tag">\<span class="name">_</span></span>scratch</span><br><span class="line">&gt; nvs use chakracore/8.1.2</span><br><span class="line">PATH -= <span class="formula">$env:LOCALAPPDATA<span class="tag">\<span class="name">nvs</span></span><span class="tag">\<span class="name">chakracore</span></span><span class="tag">\</span>8.1.4<span class="tag">\<span class="name">x</span></span>64</span></span><br><span class="line"><span class="formula">PATH += $</span>env:LOCALAPPDATA<span class="tag">\<span class="name">nvs</span></span><span class="tag">\<span class="name">chakracore</span></span><span class="tag">\</span>8.1.2<span class="tag">\<span class="name">x</span></span>64</span><br><span class="line"></span><br><span class="line">C:<span class="tag">\<span class="name">Users</span></span><span class="tag">\<span class="name">dw</span></span><span class="tag">\<span class="name">src</span></span><span class="tag">\<span class="name">_</span></span>scratch</span><br><span class="line">&gt; node --version</span><br><span class="line">v8.1.2</span><br></pre></td></tr></table></figure><h2>What makes it cool?</h2><p>It's cross-platform, so that's pretty awesome. But, there's more stuff that I haven't touched on in this post.</p><p>For example, there is bundled integration with <a href="https://github.com/jasongin/nvs#vs-code-support" target="_blank" rel="noopener">Visual Studio Code</a> which is a huge cross-platform bonus for me. VS Code is my editor of choice, and considering that it too is cross-platform, this is pretty great.</p><p>Other coolness to note would be things like <a href="https://github.com/jasongin/nvs#aliases" target="_blank" rel="noopener">aliasing</a> and <a href="">automatic directory swtiching</a>(https://github.com/jasongin/nvs#automatic-switching-per-directory). Not to mention that it supports <a href="https://github.com/nodejs/node-chakracore">ChrakraCore</a>, making it easy to turn it on for all your <a href="https://github.com/nodejs/node-chakracore#time-travel-debugging" target="_blank" rel="noopener">Time Travel Debugging</a> needs.</p><p>All of that is icing on a delicious dev tool cake.</p><h2>What are the drawbacks?</h2><p>Honestly, I'm not sure. I haven't found any so far, so that counts for something.</p><hr><p>At the end of the day NVS does the job, and it does the job well. Plus, it comes with a bunch of cool extras that can make your Node development experience even more smooth.</p>]]></content>
-    
-    <summary type="html">
-    
-      Here&#39;s another dev thing I use: NVS, or the Node Version Switcher. It works on Windows and it&#39;s great.
-    
-    </summary>
-    
-      <category term="javascript" scheme="https://westerndevs.com/categories/javascript/"/>
-    
-    
-      <category term="javascript" scheme="https://westerndevs.com/tags/javascript/"/>
-    
-      <category term="node" scheme="https://westerndevs.com/tags/node/"/>
-    
-      <category term="powershell" scheme="https://westerndevs.com/tags/powershell/"/>
-    
-      <category term="nvs" scheme="https://westerndevs.com/tags/nvs/"/>
-    
-      <category term="version manager" scheme="https://westerndevs.com/tags/version-manager/"/>
     
   </entry>
   
