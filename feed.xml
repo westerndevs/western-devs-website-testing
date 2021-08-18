@@ -5,7 +5,7 @@
   <link href="/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://westerndevs.com" rel="alternate" type="application/atom+xml"/>
   
-  <updated>2021-06-28T16:56:07.757Z</updated>
+  <updated>2021-08-18T20:59:26.727Z</updated>
   <id>https://westerndevs.com/</id>
   
   <author>
@@ -17,11 +17,193 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title type="html">Which Key to use for Managed Identity in Keyvault</title>
+    <link href="https://westerndevs.com/_/appliation-key-for-keyvault/" rel="alternate" type="text/html"/>
+    <id>https://westerndevs.com/_/appliation-key-for-keyvault/</id>
+    <published>2021-08-13T04:00:00.000Z</published>
+    <updated>2021-08-18T20:59:26.727Z</updated>
+	<author>
+	
+	  
+	  <name>Simon Timms</name>
+	  <email>stimms@gmail.com</email>
+	
+	  <uri>https://westerndevs.com</uri>
+	</author>
+    
+    <content type="html"><![CDATA[<p>I have a terraform deployment which runs in azure pipeline. Azure pipelines is connected to Azure via a service connection. This service connection is registered as an application in the Azure AD of the Azure account. The problem I constantly run into is that I can't remember which id from the application should be granted keyvault access so the build pipeline can read and write to keyvault.</p><figure class="highlight nix"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">resource <span class="string">"azurerm_key_vault_access_policy"</span> <span class="string">"terraformaccess"</span> &#123;</span><br><span class="line">  <span class="attr">key_vault_id</span> = azurerm_key_vault.keyvault.id</span><br><span class="line"></span><br><span class="line">  <span class="attr">tenant_id</span> = local.tenant_id</span><br><span class="line">  <span class="attr">object_id</span> = ???????????????????</span><br><span class="line"></span><br><span class="line">  <span class="attr">key_permissions</span> = [</span><br><span class="line">    <span class="string">"Get"</span>,</span><br><span class="line">    <span class="string">"Create"</span>,</span><br><span class="line">    <span class="string">"List"</span>,</span><br><span class="line">    <span class="string">"Update"</span>,</span><br><span class="line">    <span class="string">"Verify"</span>,</span><br><span class="line">    <span class="string">"Delete"</span>,</span><br><span class="line">    <span class="string">"WrapKey"</span>,</span><br><span class="line">    <span class="string">"UnwrapKey"</span></span><br><span class="line">  ]</span><br><span class="line"></span><br><span class="line">  <span class="attr">secret_permissions</span> = [</span><br><span class="line">    <span class="string">"Get"</span>,</span><br><span class="line">    <span class="string">"List"</span>,</span><br><span class="line">    <span class="string">"Set"</span></span><br><span class="line">  ]</span><br><span class="line"></span><br><span class="line">  <span class="attr">storage_permissions</span> = [</span><br><span class="line">    <span class="string">"Get"</span>,</span><br><span class="line">    <span class="string">"List"</span>,</span><br><span class="line">    <span class="string">"Set"</span>,</span><br><span class="line">    <span class="string">"Update"</span></span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>Maybe the value is in the portal somewhere:</p><p><img src="/images/2021-08-12-appliation-key-for-keyvault.md/2021-08-12-21-21-51.png" alt="">)</p><p>Nope.</p><p>It seems to be findable by doing either</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Login<span class="literal">-AzureRmAccount</span> <span class="literal">-SubscriptionId</span> &lt;your subscription id&gt;;</span><br><span class="line"><span class="variable">$spn</span>=(<span class="built_in">Get-AzureRmADServicePrincipal</span> <span class="literal">-SPN</span> &lt;the application id&gt;);</span><br><span class="line">echo <span class="variable">$spn</span>.Id</span><br></pre></td></tr></table></figure><p>or</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">az ad sp list --spn &lt;the application id&gt;</span><br></pre></td></tr></table></figure><p>Then look for <code>ObjectId</code></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I have a terraform deployment which runs in azure pipeline. Azure pipelines is connected to Azure via a service connection. This service 
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title type="html">Stop Terraform Managing State for a Resource</title>
+    <link href="https://westerndevs.com/_/stop-managing-resource/" rel="alternate" type="text/html"/>
+    <id>https://westerndevs.com/_/stop-managing-resource/</id>
+    <published>2021-07-30T04:00:00.000Z</published>
+    <updated>2021-08-18T20:59:26.735Z</updated>
+	<author>
+	
+	  
+	  <name>Simon Timms</name>
+	  <email>stimms@gmail.com</email>
+	
+	  <uri>https://westerndevs.com</uri>
+	</author>
+    
+    <content type="html"><![CDATA[<p>Say you want to keep a resource but you want to stop terraform from managing it. You can ask terraform to update its state to forget about it. In my case I want terraform to forget it managing my Azure Static Web App because Terraform doesn't support all the options I need and will clobber the app.</p><p>I can run this</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">terraform state rm <span class="string">"azurerm_static_site.agentportal"</span></span><br></pre></td></tr></table></figure><p>If I decide to start managing the state again I can just run a terraform import to manage it again.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Say you want to keep a resource but you want to stop terraform from managing it. You can ask terraform to update its state to forget abou
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title type="html">Storybook IFrame 404</title>
+    <link href="https://westerndevs.com/_/storybook-iframe-404/" rel="alternate" type="text/html"/>
+    <id>https://westerndevs.com/_/storybook-iframe-404/</id>
+    <published>2021-07-29T04:00:00.000Z</published>
+    <updated>2021-08-18T20:59:26.735Z</updated>
+	<author>
+	
+	  
+	  <name>Simon Timms</name>
+	  <email>stimms@gmail.com</email>
+	
+	  <uri>https://westerndevs.com</uri>
+	</author>
+    
+    <content type="html"><![CDATA[<p>If you're running into a 404 on the IFrame on storybook the mostly likely cause is that your directory path to where storybook is contains some encoded characters. In this case we had a project called <code>Agent%20Portal</code> on disk. Renaming it to just <code>AgentPortal</code> fixed up storybook right away.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;If you&#39;re running into a 404 on the IFrame on storybook the mostly likely cause is that your directory path to where storybook is contain
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title type="html">Building an SQL Azure Connection String using terraform</title>
+    <link href="https://westerndevs.com/_/build-sql-connection-string/" rel="alternate" type="text/html"/>
+    <id>https://westerndevs.com/_/build-sql-connection-string/</id>
+    <published>2021-07-26T04:00:00.000Z</published>
+    <updated>2021-08-18T20:59:26.727Z</updated>
+	<author>
+	
+	  
+	  <name>Simon Timms</name>
+	  <email>stimms@gmail.com</email>
+	
+	  <uri>https://westerndevs.com</uri>
+	</author>
+    
+    <content type="html"><![CDATA[<p>If you provision a database using terraform you often find that you need to get that connection string into app settings or key vault or something like that. To do that you first need to build it because the outputs from the database resource don't include it.</p><p>From the database you want to export</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">output "database_name" &#123;</span><br><span class="line">  value = azurerm_sql_database.database.name</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>Then when you actually build the string you want something like this:</p><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">database_connection_string</span>    = <span class="string">"Server=tcp:<span class="variable">$&#123;module.database.name&#125;</span>.database.windows.net,1433;Initial Catalog=<span class="variable">$&#123;module.database.database_name&#125;</span>;Persist Security Info=False;User ID=<span class="variable">$&#123;var.database_user&#125;</span>;Password=<span class="variable">$&#123;var.database_password&#125;</span>;MultipleActiveResultSets=True;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"</span></span><br></pre></td></tr></table></figure><p>Then you can push this to KeyVault or an App Service directly.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;If you provision a database using terraform you often find that you need to get that connection string into app settings or key vault or 
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title type="html">Deploying App Settings to an Azure Static Web App</title>
+    <link href="https://westerndevs.com/_/static-app-settings/" rel="alternate" type="text/html"/>
+    <id>https://westerndevs.com/_/static-app-settings/</id>
+    <published>2021-07-26T04:00:00.000Z</published>
+    <updated>2021-08-18T20:59:26.735Z</updated>
+	<author>
+	
+	  
+	  <name>Simon Timms</name>
+	  <email>stimms@gmail.com</email>
+	
+	  <uri>https://westerndevs.com</uri>
+	</author>
+    
+    <content type="html"><![CDATA[<p>Static web apps are pretty cool but certain parts of them feel like they are still a little raw. It is a newish product so I can understand that. I just wish the things that didn't get attention were something other that devops things. That's mostly because I'm so big on builds and repeatable processes. Being able to set app setting is one of the things I think falls through the cracks.</p><p>The <a href="https://docs.microsoft.com/en-us/azure/static-web-apps/application-settings#:~:text=%20Using%20the%20Azure%20portal%20%201%20Navigate,7%20Click%20OK.%208%20Click%20Save.%20More%20" target="_blank" rel="noopener">docs</a> for statics web apps suggests two different ways of setting app settings. First through the portal which we can ignore right out the gate because it is manual. The second is through an <code>az</code> command that actually just exercises a REST endpoint. No Arm support, no terraform support, no bicep support, no azure powershell support... a long way to go.</p><p>The az command takes in a specially formatted json file. My databse and connection string variables are set up as outputs from my terraform. Once I have them imported into my Azure DevOps build pipeline I use powershell to build the template file like so:</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$temp</span> = gc api/api/local.settings.template.json | <span class="built_in">ConvertFrom-Json</span></span><br><span class="line"><span class="variable">$temp</span>.properties.STORAGE_CONNECTION_STRING = <span class="string">"<span class="variable">$</span>(terraformOutput.storage_connection_string)"</span></span><br><span class="line"><span class="variable">$temp</span>.properties.DATABASE_CONNECTION_STRING = <span class="string">"<span class="variable">$</span>(terraformOutput.database_connection_string)"</span></span><br><span class="line"><span class="variable">$temp</span> | <span class="built_in">ConvertTo-json</span> &gt; api/api/local.settings.template.json</span><br></pre></td></tr></table></figure><p>Now this needs to be passed up to azure using the <code>AzureCLI</code> task</p><pre><code class="language-yaml">  - task: AzureCLI@2    inputs:    azureSubscription: 'Azure Sub'    scriptType: 'pscore'    scriptLocation: 'inlineScript'    inlineScript: |        gc api/api/local.settings.template.json        az rest --method put --headers &quot;Content-Type=application/json&quot; --uri &quot;/subscriptions/6da8d6e6-41f1-xxxx-xxxx-xxxxxxxx/resourceGroups/dev-portal/providers/Microsoft.Web/staticSites/dev-portal/config/functionappsettings?api-version=2019-12-01-preview&quot; --body @api/api/local.settings.template.json</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Static web apps are pretty cool but certain parts of them feel like they are still a little raw. It is a newish product so I can understa
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title type="html">Vetur Warnings in Azure Static Web App</title>
+    <link href="https://westerndevs.com/_/vetur-cant-file-files/" rel="alternate" type="text/html"/>
+    <id>https://westerndevs.com/_/vetur-cant-file-files/</id>
+    <published>2021-07-24T04:00:00.000Z</published>
+    <updated>2021-08-18T20:59:26.735Z</updated>
+	<author>
+	
+	  
+	  <name>Simon Timms</name>
+	  <email>stimms@gmail.com</email>
+	
+	  <uri>https://westerndevs.com</uri>
+	</author>
+    
+    <content type="html"><![CDATA[<p>I have a static web app that has directories for the front end written in Vue and the back end written in Azure functions. When I open it in VS Code I get warnings that Vetur can't find the <code>package.json</code> or <code>tsconfig.json</code>. This is because the Vue project isn't at the project root. This can be fixed by adding, at the root, a <code>vetur.config.js</code> containing a pointer to the web project. With my web project being in <code>web</code> (creative I know) the file looks like</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// vetur.config.js</span></span><br><span class="line"><span class="comment">/** <span class="doctag">@type <span class="type">&#123;import('vls').VeturConfig&#125;</span> </span>*/</span></span><br><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">    <span class="comment">// **optional** default: `&#123;&#125;`</span></span><br><span class="line">    <span class="comment">// override vscode settings</span></span><br><span class="line">    <span class="comment">// Notice: It only affects the settings used by Vetur.</span></span><br><span class="line">    settings: &#123;</span><br><span class="line">      <span class="string">"vetur.useWorkspaceDependencies"</span>: <span class="literal">true</span>,</span><br><span class="line">      <span class="string">"vetur.experimental.templateInterpolationService"</span>: <span class="literal">true</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="comment">// **optional** default: `[&#123; root: './' &#125;]`</span></span><br><span class="line">    <span class="comment">// support monorepos</span></span><br><span class="line">    projects: [</span><br><span class="line">      <span class="string">'./web'</span></span><br><span class="line">    ]</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I have a static web app that has directories for the front end written in Vue and the back end written in Azure functions. When I open it
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title type="html">Enable TeamCity Symbol Server</title>
+    <link href="https://westerndevs.com/_/enable-symbol-server/" rel="alternate" type="text/html"/>
+    <id>https://westerndevs.com/_/enable-symbol-server/</id>
+    <published>2021-07-08T04:00:00.000Z</published>
+    <updated>2021-08-18T20:59:26.731Z</updated>
+	<author>
+	
+	  
+	  <name>Simon Timms</name>
+	  <email>stimms@gmail.com</email>
+	
+	  <uri>https://westerndevs.com</uri>
+	</author>
+    
+    <content type="html"><![CDATA[<p>First off a symbol server is a server which stores the symbols from a built binary so you don't have to ship out PDB files with your compiled code to be able to debug it. You can hook up visual studio to search a symbol server when you're debugging so that you can drop into code for something like a shared nuget package. Teamcity, as it turns out, has a plugin to support being a symbol server. Here is how you get started with it:</p><ol><li>Install the symbol server plugin by going to Administration &gt; plugins &gt; Browse plugins repository and search for <code>symbol</code></li><li>On your build agents install the windows debugging tools which are shipped as part of the Windows SDK. For windows 10 you can grab it here: https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/ During the install you'll be prompted for which components you want to install and you can just turn off everything but the debugging tools.</li><li>Remember to restart your build agents so they can register the debugging tools as being installed. You can check by going to the build agent in teamcity. Click on parameters<img src="/images/2021-07-08-enable-symbol-server.md/2021-07-08-16-29-31.png" alt="">)In there, at the bottom, you should find an entry for the debugger<img src="/images/2021-07-08-enable-symbol-server.md/2021-07-08-16-29-59.png" alt="">)</li><li>In the projects you want symbols for enable the symbol server feature<img src="/images/2021-07-08-enable-symbol-server.md/2021-07-08-16-31-20.png" alt="">)</li><li>In the build artifacts you need to ensure that both the PDB and the associated EXE or DLL are selected as artifacts.<img src="/images/2021-07-08-enable-symbol-server.md/2021-07-08-16-32-51.png" alt="">)</li></ol><p>That's pretty much it. In your build now you should see a few log messages to let you know that the symbol server indexing is working<img src="/images/2021-07-08-enable-symbol-server.md/2021-07-08-16-45-53.png" alt="">)</p><p>Now you can hook up Visual Studio to use this by going into settings and searching for <code>symbols</code> then paste the URL of the teamcity server with <code>/app/symbols</code> at the end of it into the box<img src="/images/2021-07-08-enable-symbol-server.md/2021-07-08-16-49-54.png" alt="">)</p><p>Now when you're debugging in visual studio you'll have access to the symbols.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;First off a symbol server is a server which stores the symbols from a built binary so you don&#39;t have to ship out PDB files with your comp
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title type="html">I Can Teach Your Dog Quantum Physics</title>
     <link href="https://westerndevs.com/finding-inspiration/i-can-teach-your-dog-quantum-physics/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/finding-inspiration/i-can-teach-your-dog-quantum-physics/</id>
     <published>2021-06-28T16:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.757Z</updated>
+    <updated>2021-08-18T20:59:26.727Z</updated>
 	<author>
 	
 	  
@@ -59,7 +241,7 @@
     <link href="https://westerndevs.com/_/azure-automation/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/_/azure-automation/</id>
     <published>2021-06-24T04:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.761Z</updated>
+    <updated>2021-08-18T20:59:26.727Z</updated>
 	<author>
 	
 	  
@@ -85,7 +267,7 @@
     <link href="https://westerndevs.com/inner-monologue/what-value-does-making-content-bring-to-me/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/inner-monologue/what-value-does-making-content-bring-to-me/</id>
     <published>2021-06-17T16:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.757Z</updated>
+    <updated>2021-08-18T20:59:26.727Z</updated>
 	<author>
 	
 	  
@@ -123,7 +305,7 @@
     <link href="https://westerndevs.com/_/storybook/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/_/storybook/</id>
     <published>2021-06-17T04:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.769Z</updated>
+    <updated>2021-08-18T20:59:26.735Z</updated>
 	<author>
 	
 	  
@@ -152,7 +334,7 @@
     <link href="https://westerndevs.com/_/noda-time/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/_/noda-time/</id>
     <published>2021-06-16T04:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.765Z</updated>
+    <updated>2021-08-18T20:59:26.731Z</updated>
 	<author>
 	
 	  
@@ -179,7 +361,7 @@
     <link href="https://westerndevs.com/_/installing-fonts/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/_/installing-fonts/</id>
     <published>2021-06-11T04:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.765Z</updated>
+    <updated>2021-08-18T20:59:26.731Z</updated>
 	<author>
 	
 	  
@@ -205,7 +387,7 @@
     <link href="https://westerndevs.com/_/Azure-service-bus-transports/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/_/Azure-service-bus-transports/</id>
     <published>2021-06-07T04:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.757Z</updated>
+    <updated>2021-08-18T20:59:26.727Z</updated>
 	<author>
 	
 	  
@@ -236,7 +418,7 @@
     <link href="https://westerndevs.com/_/add-user-to-role/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/_/add-user-to-role/</id>
     <published>2021-06-07T04:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.761Z</updated>
+    <updated>2021-08-18T20:59:26.727Z</updated>
 	<author>
 	
 	  
@@ -263,7 +445,7 @@
     <link href="https://westerndevs.com/inner-monologue/my-secret-addiction-to-likes/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/inner-monologue/my-secret-addiction-to-likes/</id>
     <published>2021-06-03T16:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.757Z</updated>
+    <updated>2021-08-18T20:59:26.727Z</updated>
 	<author>
 	
 	  
@@ -301,7 +483,7 @@
     <link href="https://westerndevs.com/_/sequence/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/_/sequence/</id>
     <published>2021-06-03T04:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.769Z</updated>
+    <updated>2021-08-18T20:59:26.735Z</updated>
 	<author>
 	
 	  
@@ -327,7 +509,7 @@
     <link href="https://westerndevs.com/technology/inner-monologue/lucky-number-v7/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/technology/inner-monologue/lucky-number-v7/</id>
     <published>2021-05-24T16:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.757Z</updated>
+    <updated>2021-08-18T20:59:26.727Z</updated>
 	<author>
 	
 	  
@@ -363,7 +545,7 @@
     <link href="https://westerndevs.com/_/durable-entities/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/_/durable-entities/</id>
     <published>2021-05-20T04:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.761Z</updated>
+    <updated>2021-08-18T20:59:26.731Z</updated>
 	<author>
 	
 	  
@@ -389,7 +571,7 @@
     <link href="https://westerndevs.com/_/advanced-waf-rules-in-terraform/" rel="alternate" type="text/html"/>
     <id>https://westerndevs.com/_/advanced-waf-rules-in-terraform/</id>
     <published>2021-05-19T04:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.761Z</updated>
+    <updated>2021-08-18T20:59:26.727Z</updated>
 	<author>
 	
 	  
@@ -404,191 +586,6 @@
     <summary type="html">
     
       &lt;p&gt;If you&#39;re creating an Application Gateway in Terraform for Azure you&#39;re using this resource &lt;code&gt;azurerm_application_gateway&lt;/code&gt;. Thi
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title type="html">Importing an Encrypted Backup into Azure Managed SQL</title>
-    <link href="https://westerndevs.com/_/importing-tde-encrypted-backup/" rel="alternate" type="text/html"/>
-    <id>https://westerndevs.com/_/importing-tde-encrypted-backup/</id>
-    <published>2021-05-18T04:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.765Z</updated>
-	<author>
-	
-	  
-	  <name>Simon Timms</name>
-	  <email>stimms@gmail.com</email>
-	
-	  <uri>https://westerndevs.com</uri>
-	</author>
-    
-    <content type="html"><![CDATA[<p>Let's say you're moving an encrypted backup into Azure. The encryption was set up like this</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> CERTIFICATE BackupKey   </span><br><span class="line">   ENCRYPTION <span class="keyword">BY</span> <span class="keyword">PASSWORD</span> = <span class="string">'a password that''s really strong here'</span>  </span><br><span class="line">   <span class="keyword">WITH</span> SUBJECT = <span class="string">'test1backup'</span>,   </span><br><span class="line">   EXPIRY_DATE = <span class="string">'20220101'</span>;  </span><br><span class="line">GO</span><br></pre></td></tr></table></figure><p>Now we need to export this certificate which can be done with</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">BACKUP</span> CERTIFICATE BackupKey <span class="keyword">TO</span> <span class="keyword">FILE</span> = <span class="string">'c:\temp\backupkey.cer'</span></span><br><span class="line"><span class="keyword">WITH</span> <span class="keyword">PRIVATE</span> <span class="keyword">KEY</span> (</span><br><span class="line"><span class="keyword">FILE</span> = <span class="string">'c:\temp\backupkey.pvk'</span>,</span><br><span class="line">DECRYPTION <span class="keyword">BY</span> <span class="keyword">PASSWORD</span> = <span class="string">'a password that''s really strong here'</span>,</span><br><span class="line">ENCRYPTION <span class="keyword">BY</span> <span class="keyword">PASSWORD</span> = <span class="string">'A strong password for the certificate'</span> )</span><br></pre></td></tr></table></figure><p>Now we have two file which contain the public and private keys. We need to combine these into something that Azure Key Vault can understand and this something is a .pfx file. There is a tool called <code>pvk2pfx</code> which can be used for this task and it is found in the Windows Enterprise Driver Kit https://docs.microsoft.com/en-us/windows-hardware/drivers/download-the-wdk. It is also installed as part of visual studio. On my machine it was in <code>C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86\pvk2pfx.exe</code></p><p>Run this command to combine them</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp; <span class="string">"C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86\pvk2pfx.exe"</span> <span class="literal">-pvk</span> C:\temp\backupkey.pvk <span class="literal">-pi</span> <span class="string">'A strong password for the certificate'</span> <span class="literal">-spc</span> C:\temp\backupkey.cer <span class="literal">-pfx</span> c:\temp\backupkey.pfx</span><br></pre></td></tr></table></figure><p>Next up we need to import this key into azure keyvault. This can be done using the GUI or the command line tools. Everybody likes a pretty picture so let's use the Portal. Click into the key vault and then under certificates<img src="/images/2021-05-18-importing-tde-encrypted-backup.md/2021-05-18-14-00-09.png" alt="">)</p><p>Then click on <code>Generate/Import</code> and fill in the form there selecting the <code>.pfx</code> file created above.<img src="/images/2021-05-18-importing-tde-encrypted-backup.md/2021-05-18-12-55-32.png" alt="">)</p><p>The password will be the same one you used when exporting from SQL server. Once the certificate is imported it should be available to anybody or any application with access to certificates in key vault.</p><p>You can open up SQL Server Management Studio and in there add a new certificate selecting the certificate from the Key Vault connection</p><p><img src="/images/2021-05-18-importing-tde-encrypted-backup.md/2021-05-18-13-58-27.png" alt="">)</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Let&#39;s say you&#39;re moving an encrypted backup into Azure. The encryption was set up like this&lt;/p&gt;
-&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title type="html">JQ</title>
-    <link href="https://westerndevs.com/_/jq/" rel="alternate" type="text/html"/>
-    <id>https://westerndevs.com/_/jq/</id>
-    <published>2021-05-11T04:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.765Z</updated>
-	<author>
-	
-	  
-	  <name>Simon Timms</name>
-	  <email>stimms@gmail.com</email>
-	
-	  <uri>https://westerndevs.com</uri>
-	</author>
-    
-    <content type="html"><![CDATA[<p>This is a really nice tool for manipulating JSON on the command line. The syntax is, however, esoteric like you would not believe. Here are some cheats to help out</p><p>If you have an array and want to take just the object at a specific index</p><figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.[<span class="number">3</span>]</span><br></pre></td></tr></table></figure><p>which returns the 3rd element</p><p>If you want to extract a value from an array of objects then you can use</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.<span class="selector-attr">[]</span><span class="selector-class">.LicensePlate</span></span><br></pre></td></tr></table></figure><p>This works for multiple levels too so if you have nested objects you can</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.<span class="selector-attr">[]</span><span class="selector-class">.LicensePlate</span><span class="selector-class">.Province</span></span><br></pre></td></tr></table></figure><p>Given an array where you want to filter it then you can use this</p><figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[ .[] | select( .LicensePlate | contains(<span class="string">"PM184J"</span>)) ]</span><br></pre></td></tr></table></figure><p>To select a single field you could then do</p><figure class="highlight coq"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[ .[] | <span class="type">select</span>( .LicensePlate | <span class="type">contains</span>(<span class="string">"PM184J"</span>)) ] |  <span class="type">map</span>( .LicensePlate)</span><br></pre></td></tr></table></figure><p>If you want multiple fields built back into an object do</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;<span class="attribute">LicensePlate</span>: .[].LicensePlate, EndTime: .[].EndTime&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;This is a really nice tool for manipulating JSON on the command line. The syntax is, however, esoteric like you would not believe. Here a
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title type="html">Creating a Shortcut in Powershell</title>
-    <link href="https://westerndevs.com/_/creating-a-shortcut/" rel="alternate" type="text/html"/>
-    <id>https://westerndevs.com/_/creating-a-shortcut/</id>
-    <published>2021-05-10T04:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.761Z</updated>
-	<author>
-	
-	  
-	  <name>Simon Timms</name>
-	  <email>stimms@gmail.com</email>
-	
-	  <uri>https://westerndevs.com</uri>
-	</author>
-    
-    <content type="html"><![CDATA[<p>You can't really create a shortcut in powershell directly but you can using the windows script host from powershell. For instance here is how you would create a new desktop icon to log the current user off.</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$WshShell</span> = <span class="built_in">New-Object</span> <span class="literal">-comObject</span> WScript.Shell</span><br><span class="line"><span class="variable">$Shortcut</span> = <span class="variable">$WshShell</span>.CreateShortcut(<span class="string">"<span class="variable">$home</span>\Desktop\LogOff.lnk"</span>)</span><br><span class="line"><span class="variable">$Shortcut</span>.TargetPath=<span class="string">"C:\Windows\System32\shutdown.exe"</span></span><br><span class="line"><span class="variable">$Shortcut</span>.Arguments=<span class="string">"/l"</span></span><br><span class="line"><span class="variable">$Shortcut</span>.IconLocation=<span class="string">"C:\windows\system32\Shell32.dll,44"</span></span><br><span class="line"><span class="variable">$Shortcut</span>.Save()</span><br></pre></td></tr></table></figure><p>The icon here is taken from the long list of icons in <code>Shell32.dll</code> in this case it is the little orange key icon. These icons are going to be refreshed soon so your mileage may vary on them. I found the right icon by just google image searching <code>shell32.dll icon</code> and found a picture of some of the index numbers. They were 1 indexed so I had to subtract 1</p><p><img src="/images/2021-05-10-creating-a-shortcut.md/2021-05-10-11-39-21.png" alt="">)</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;You can&#39;t really create a shortcut in powershell directly but you can using the windows script host from powershell. For instance here is
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title type="html">Setting Timezone from Powershell</title>
-    <link href="https://westerndevs.com/_/set-timezone/" rel="alternate" type="text/html"/>
-    <id>https://westerndevs.com/_/set-timezone/</id>
-    <published>2021-05-10T04:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.769Z</updated>
-	<author>
-	
-	  
-	  <name>Simon Timms</name>
-	  <email>stimms@gmail.com</email>
-	
-	  <uri>https://westerndevs.com</uri>
-	</author>
-    
-    <content type="html"><![CDATA[<p>This is pretty easy.</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Set-Timezone</span> <span class="literal">-Id</span> <span class="string">"US Eastern Standard Time"</span></span><br></pre></td></tr></table></figure><p>You need to know the id of the timezone and you can figure that out using</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Get-Timezone</span> <span class="literal">-ListAvailable</span></span><br></pre></td></tr></table></figure><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">Id                         :</span> <span class="string">Dateline</span> <span class="string">Standard</span> <span class="string">Time</span></span><br><span class="line"><span class="attr">DisplayName                :</span> <span class="string">(UTC-12:00)</span> <span class="string">International</span> <span class="string">Date</span> <span class="string">Line</span> <span class="string">West</span></span><br><span class="line"><span class="attr">StandardName               :</span> <span class="string">Dateline</span> <span class="string">Standard</span> <span class="string">Time</span></span><br><span class="line"><span class="attr">DaylightName               :</span> <span class="string">Dateline</span> <span class="string">Daylight</span> <span class="string">Time</span></span><br><span class="line"><span class="attr">BaseUtcOffset              :</span> <span class="number">-12</span><span class="string">:00:00</span></span><br><span class="line"><span class="attr">SupportsDaylightSavingTime :</span> <span class="literal">False</span></span><br><span class="line"></span><br><span class="line"><span class="attr">Id                         :</span> <span class="string">UTC-11</span></span><br><span class="line"><span class="attr">DisplayName                :</span> <span class="string">(UTC-11:00)</span> <span class="string">Coordinated</span> <span class="string">Universal</span> <span class="string">Time-11</span></span><br><span class="line"><span class="attr">StandardName               :</span> <span class="string">UTC-11</span></span><br><span class="line"><span class="attr">DaylightName               :</span> <span class="string">UTC-11</span></span><br><span class="line"><span class="attr">BaseUtcOffset              :</span> <span class="number">-11</span><span class="string">:00:00</span></span><br><span class="line"><span class="attr">SupportsDaylightSavingTime :</span> <span class="literal">False</span></span><br><span class="line"><span class="string">...</span></span><br></pre></td></tr></table></figure><p>You can also see the current timezone by running</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Get-Timezone</span></span><br></pre></td></tr></table></figure><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">Id                         :</span> <span class="string">Mountain</span> <span class="string">Standard</span> <span class="string">Time</span></span><br><span class="line"><span class="attr">DisplayName                :</span> <span class="string">(UTC-07:00)</span> <span class="string">Mountain</span> <span class="string">Time</span> <span class="string">(US</span> <span class="string">&amp;</span> <span class="string">Canada)</span></span><br><span class="line"><span class="attr">StandardName               :</span> <span class="string">Mountain</span> <span class="string">Standard</span> <span class="string">Time</span></span><br><span class="line"><span class="attr">DaylightName               :</span> <span class="string">Mountain</span> <span class="string">Daylight</span> <span class="string">Time</span></span><br><span class="line"><span class="attr">BaseUtcOffset              :</span> <span class="number">-07</span><span class="string">:00:00</span></span><br><span class="line"><span class="attr">SupportsDaylightSavingTime :</span> <span class="literal">True</span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;This is pretty easy.&lt;/p&gt;
-&lt;figure class=&quot;highlight powershell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/t
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title type="html">Download a file in powershell</title>
-    <link href="https://westerndevs.com/_/download-file/" rel="alternate" type="text/html"/>
-    <id>https://westerndevs.com/_/download-file/</id>
-    <published>2021-05-08T04:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.761Z</updated>
-	<author>
-	
-	  
-	  <name>Simon Timms</name>
-	  <email>stimms@gmail.com</email>
-	
-	  <uri>https://westerndevs.com</uri>
-	</author>
-    
-    <content type="html"><![CDATA[<p>Here is a quick way to download a file in powershell:</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Invoke-WebRequest -Uri <span class="tag">&lt;<span class="name">source</span>&gt;</span> -OutFile <span class="tag">&lt;<span class="name">destination</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Here is a quick way to download a file in powershell:&lt;/p&gt;
-&lt;figure class=&quot;highlight xml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;l
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title type="html">Create or Update Index</title>
-    <link href="https://westerndevs.com/_/drop-existing-index/" rel="alternate" type="text/html"/>
-    <id>https://westerndevs.com/_/drop-existing-index/</id>
-    <published>2021-05-08T04:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.761Z</updated>
-	<author>
-	
-	  
-	  <name>Simon Timms</name>
-	  <email>stimms@gmail.com</email>
-	
-	  <uri>https://westerndevs.com</uri>
-	</author>
-    
-    <content type="html"><![CDATA[<p>Of course the SQL server syntax for this doesn't quite jive with what I want but you can use the clause <code>WITH (DROP_EXISTING = ON)</code> to have SQL server handle updating an existing index keeping the old index live until the new version is ready. You use it like</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> NONCLUSTERED <span class="keyword">INDEX</span> idxMonthlyParkers_vendor_expiry_issue</span><br><span class="line"><span class="keyword">ON</span> [dbo].[tblParkers] ([VendorId],[LotTimezoneExpiryDate],[LotTimezoneIssueDate])</span><br><span class="line"><span class="keyword">INCLUDE</span> ([HangTagCode],[FirstName],[LastName])</span><br><span class="line"> <span class="keyword">WITH</span> (DROP_EXISTING = <span class="keyword">ON</span>)</span><br></pre></td></tr></table></figure><p>However that will throw an error if the index doesn't exist (of course) so you need to wrap it with an <code>if</code></p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">if exists (<span class="keyword">SELECT</span> * </span><br><span class="line"><span class="keyword">FROM</span> sys.indexes </span><br><span class="line"><span class="keyword">WHERE</span> <span class="keyword">name</span>=<span class="string">'idxMonthlyParkers_vendor_expiry_issue'</span> <span class="keyword">AND</span> object_id = OBJECT_ID(<span class="string">'dbo.tblMonthlyParker'</span>))</span><br><span class="line"><span class="keyword">begin</span></span><br><span class="line">    <span class="keyword">CREATE</span> NONCLUSTERED <span class="keyword">INDEX</span> idxMonthlyParkers_vendor_expiry_issue</span><br><span class="line">    <span class="keyword">ON</span> [dbo].[tblParkers] ([VendorId],[LotTimezoneExpiryDate],[LotTimezoneIssueDate])</span><br><span class="line">    <span class="keyword">INCLUDE</span> ([HangTagCode],[FirstName],[LastName])</span><br><span class="line">    <span class="keyword">WITH</span> (DROP_EXISTING = <span class="keyword">ON</span>)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"><span class="keyword">else</span> </span><br><span class="line"><span class="keyword">begin</span></span><br><span class="line">    <span class="keyword">CREATE</span> NONCLUSTERED <span class="keyword">INDEX</span> idxMonthlyParkers_vendor_expiry_issue</span><br><span class="line">    <span class="keyword">ON</span> [dbo].[tblParkers] ([VendorId],[LotTimezoneExpiryDate],[LotTimezoneIssueDate])</span><br><span class="line">    <span class="keyword">INCLUDE</span> ([HangTagCode],[FirstName],[LastName])</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Of course the SQL server syntax for this doesn&#39;t quite jive with what I want but you can use the clause &lt;code&gt;WITH (DROP_EXISTING = ON)&lt;/
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title type="html">Logging in Functions</title>
-    <link href="https://westerndevs.com/_/function-appinsights/" rel="alternate" type="text/html"/>
-    <id>https://westerndevs.com/_/function-appinsights/</id>
-    <published>2021-05-08T04:00:00.000Z</published>
-    <updated>2021-06-28T16:56:07.761Z</updated>
-	<author>
-	
-	  
-	  <name>Simon Timms</name>
-	  <email>stimms@gmail.com</email>
-	
-	  <uri>https://westerndevs.com</uri>
-	</author>
-    
-    <content type="html"><![CDATA[<p>Looks like by default functions log at the <code>info</code> level. To change the level you can use set the application setting <code>AzureFunctionsJobHost__logging__LogLevel__Default</code> to some other value like <code>Error</code> or <code>Info</code>.</p><p>If you want to disable adaptive sampling then that can be done in the host.json</p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"version"</span>: <span class="string">"2.0"</span>,</span><br><span class="line">  <span class="attr">"extensions"</span>: &#123;</span><br><span class="line">    <span class="attr">"queues"</span>: &#123;</span><br><span class="line">      <span class="attr">"maxPollingInterval"</span>: <span class="string">"00:00:05"</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">"logging"</span>: &#123;</span><br><span class="line">    <span class="attr">"logLevel"</span>: &#123;</span><br><span class="line">      <span class="attr">"default"</span>: <span class="string">"Information"</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">"applicationInsights"</span>: &#123;</span><br><span class="line">      <span class="attr">"samplingSettings"</span>: &#123;</span><br><span class="line">        <span class="attr">"isEnabled"</span>: <span class="literal">false</span></span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">"functionTimeout"</span>: <span class="string">"00:10:00"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>In this example adaptive sampling is turned off so you get every log message.</p><p>A thing to note is that if you crank down logging to Error you won't see the invocations at all in the portal but they're still running.</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Looks like by default functions log at the &lt;code&gt;info&lt;/code&gt; level. To change the level you can use set the application setting &lt;code&gt;Azu
     
     </summary>
     
